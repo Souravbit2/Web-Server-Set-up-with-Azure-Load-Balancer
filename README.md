@@ -216,4 +216,3 @@ Wait for the Load Balancer to be deployed.
 		§ Start VM-01 again and observe that traffic is again distributed.
 **Conclusion**
 You have successfully set up a basic Azure Load Balancer to distribute HTTP traffic to two virtual machines. This setup provides high availability for your web application by ensuring that if one VM becomes unavailable, traffic is automatically routed to the healthy VM(s).
-<img width="1387" height="9787" alt="image" src="https://github.com/user-attachments/assets/2c62ab5c-af04-49a1-8631-c35158601ffd" />
