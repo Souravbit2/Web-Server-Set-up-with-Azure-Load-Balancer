@@ -214,5 +214,7 @@ Wait for the Load Balancer to be deployed.
 			§ Refresh your web browser accessing the Load Balancer's Public IP. You should now consistently see only the "Welcome to VM-02!" page. This demonstrates that the load balancer has detected the unhealthy VM and is routing all traffic to the healthy one.
 <img width="338" height="199" alt="image" src="https://github.com/user-attachments/assets/be201310-11dd-4385-90e1-69643075e486" />
 		§ Start VM-01 again and observe that traffic is again distributed.
+
+
 **Conclusion**
 You have successfully set up a basic Azure Load Balancer to distribute HTTP traffic to two virtual machines. This setup provides high availability for your web application by ensuring that if one VM becomes unavailable, traffic is automatically routed to the healthy VM(s).
